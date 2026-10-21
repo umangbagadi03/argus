@@ -1,0 +1,26 @@
+[
+  {
+    "id": "eval-1",
+    "question": "What are the main trade-offs between RAG and long-context approaches for enterprise knowledge bases in 2026?",
+    "category": "qualitative",
+    "must_cover": ["retrieval cost/latency", "context window limits", "freshness/updateability", "hallucination risk"]
+  },
+  {
+    "id": "eval-2",
+    "question": "Compare LangGraph, CrewAI, and AutoGen on GitHub star growth and release cadence over the last 12 months.",
+    "category": "quant",
+    "must_cover": ["at least one numeric comparison", "all three frameworks named"]
+  },
+  {
+    "id": "eval-3",
+    "question": "Should a Series B SaaS startup build an in-house LLM evaluation team or rely on managed eval platforms?",
+    "category": "qualitative",
+    "must_cover": ["cost trade-off", "control/customization trade-off", "hiring difficulty"]
+  },
+  {
+    "id": "eval-4",
+    "question": "What is the realistic free-tier request budget for a multi-agent LangGraph pipeline built on Gemini, and how should that shape its design?",
+    "category": "quant",
+    "must_cover": ["specific rate-limit numbers", "a concrete design implication, not just a restatement of the numbers"]
+  }
+]
